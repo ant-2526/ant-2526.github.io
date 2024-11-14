@@ -100,12 +100,12 @@
     /* color-1(#11ABB0)
      * color-2(#F06000)
      */
-    --color-1: hsla(182, 82%, 38%, 1);
+    --color-1: rgb(95, 111, 82);
     --color-2: hsla(24, 100%, 47%, 1);
 
     /* theme color variations
      */
-    --color-1-lighter: hsla(182, 82%, 58%, 1);
+    --color-1-lighter: rgb(95, 111, 82);
     --color-1-light: hsla(182, 82%, 48%, 1);
     --color-1-dark: hsla(182, 82%, 28%, 1);
     --color-1-darker: hsla(182, 82%, 18%, 1);
@@ -3135,7 +3135,7 @@ button.btn--pill {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: var(--color-1);
+    background-color: rgb(254, 250, 224);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -4003,7 +4003,7 @@ button.btn--pill {
     --color-border: var(--color-gray-16);
 
 
-    background-color: skyblue;
+    background-color: rgb(95, 111, 82);
 
     padding-top: 90px;
     padding-bottom: var(--vspace-4);
@@ -4659,7 +4659,7 @@ button.btn--pill {
 }
 
 .s-contact .section-header-allcaps {
-    color: rgb(31, 27, 27);
+    color: white;
     margin-bottom: var(--vspace-2_5);
 }
 
@@ -4897,7 +4897,7 @@ button.btn--pill {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-    background-color: var(--color-1);
+    background-color: var(--color-2);
 }
 
 .ss-go-top svg {
