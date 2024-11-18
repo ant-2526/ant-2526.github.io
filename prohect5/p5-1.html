@@ -28,7 +28,6 @@
             width: 1800px;
             margin: 0 auto;
         }
-
         .jua-regular {
             font-family: "Jua", sans-serif;
             font-weight: 400;
@@ -38,14 +37,14 @@
         .noto-sans-kr-uniquifier {
             font-family: "Noto Sans KR", sans-serif;
             font-optical-sizing: auto;
-            font-weight: 400;
+            font-weight: 500;
             font-style: normal;
         }
 
         .main1 {
             position: relative;
             top: 0;
-            height: 1000px;
+            height: 920px;
             margin-bottom: 0px;
             padding: 0px 0px;
             z-index: 0;
@@ -71,14 +70,37 @@
             height: 100%;
             
         }
-
+        .topp{
+            display: flex;
+            justify-content: space-between;
+            width: 1650px;
+            margin: 0 auto;
+            padding-top: 10px;
+            position: absolute;
+            z-index: 9;
+            top: 15px;
+        }
+        .top a{
+            margin-left: 1430px ;
+            text-decoration: none ;
+            color: rgb(70, 70, 70);
+            position: relative ;
+            display: inline-block;
+            font-size: 15px;
+        }
+        .top1 a{
+            margin-right: 100px;
+            color: rgb(70, 70, 70);
+            position: relative ;
+            display: inline-block;
+            font-size: 15px;
+        }
         header {
             position: absolute;
             top: 5%;
             left: 50%;
             transform: translateX(-50%);
             z-index: 999;
-
         }
 
         .hwrapper {
@@ -92,17 +114,19 @@
         .logo {
             margin-right: 130px;
         }
-
+        nav{
+            padding-right: 300px;
+        }
         nav ul li {
             list-style: none;
             display: inline-block;
-            margin: 0px 64px;
+            margin: 0px 50px;
+            
         }
-
         a {
             text-decoration: none;
-            font-size: 35px;
-            color: black;
+            font-size: 25px;
+            color: rgb(70, 70, 70);
         }
 
         .main2 {
@@ -254,6 +278,26 @@
             height: auto;
             margin: auto;
         }
+        .topp{
+            width: 95%;
+            margin: auto;
+            padding-top: 0px;
+            position: absolute;
+            z-index: 9;
+            top: 0px;
+            margin-right: 53rem;
+        }
+        .top a{
+            margin-left: 11.5rem;
+            font-size: 0.7rem;
+        }
+        .top1 a{
+            margin-right: 11.5rem;
+            font-size: 0.7rem;
+        }
+        nav{
+            padding-right: 0.1rem;
+        }
         nav ul li {
             margin: 0px 15px;
             text-align: center;
@@ -369,9 +413,19 @@
 
 <body>
     <div class="main1">
-        <div class="swiper mySwiper">
+        <div class="hwrapper">
+        <div class="topp noto-sans-kr-uniquifier"> 
+            <div class="top">
+                <a href="#"> 로그인 </a>
+            </div>
+            <div class="top1">
+                <a href="#"> 회원가입 </a>
+            </div>
+        </div>
+    </div>
+        <div class="swiper mySwiper">    
             <div class="swiper-wrapper">
-                <div class="m1-1 swiper-slide"><img src="design/mainimg3.jpg"></div>
+                <div class="m1-1 swiper-slide"><img src="design/222.jpg"></div>
                 <div class="m1-2 swiper-slide"><img src="design/main2.jpg"></div>
                 <div class="m1-3 swiper-slide"><img src="design/main3.jpg"></div>
             </div>
@@ -384,7 +438,7 @@
                             <img src="design/logo.png" width="270" height="70">
                         </div>
                     </a>
-                    <nav class="jua-regular">
+                    <nav class="noto-sans-kr-uniquifier">
                         <ul>
                             <li> <a href="#"> 브랜드 소개 </a> </li>
                             <li> <a href="#"> 메뉴 </a> </li>
