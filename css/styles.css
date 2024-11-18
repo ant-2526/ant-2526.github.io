@@ -101,7 +101,7 @@
      * color-2(#F06000)
      */
     --color-1: rgb(95, 111, 82);
-    --color-2: hsla(24, 100%, 47%, 1);
+    --color-2: rgb(254, 250, 224);
 
     /* theme color variations
      */
@@ -110,7 +110,7 @@
     --color-1-dark: hsla(182, 82%, 28%, 1);
     --color-1-darker: hsla(182, 82%, 18%, 1);
     --color-2-lighter: hsla(24, 100%, 67%, 1);
-    --color-2-light: hsla(24, 100%, 57%, 1);
+    --color-2-light: rgb(254, 250, 224);
     --color-2-dark: hsla(24, 100%, 37%, 1);
     --color-2-darker: hsla(24, 100%, 27%, 1);
 
@@ -4786,7 +4786,7 @@ button.btn--pill {
 
 .s-footer .row {
     padding-top: var(--vspace-1);
-    border-top: 1px solid rgba(255, 255, 255, 0.03);
+    border-top: 1px solid rgba(255, 255, 255, 0.418);
 }
 
 .s-footer a {
@@ -4889,7 +4889,7 @@ button.btn--pill {
     height: 6.4rem;
     width: 6.4rem;
     border-radius: 50%;
-    background-color: #050505;
+    background-color: #ececec;
     -webkit-transition: all .3s;
     transition: all .3s;
     position: relative;
@@ -4906,7 +4906,7 @@ button.btn--pill {
 }
 
 .ss-go-top svg path {
-    fill: white;
+    fill: rgb(95, 111, 82)
 }
 
 .ss-go-top.link-is-visible {
